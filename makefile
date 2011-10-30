@@ -1,3 +1,3 @@
-OBJECTS = n_factor.exe
+OBJECTS = jeffian_array.exe
 include ../../GNU_makefile_template
-LOCFLAGS = -I../n_factor
+LOCFLAGS = -I../jeffian_array

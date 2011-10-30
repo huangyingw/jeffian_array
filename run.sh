@@ -1,2 +1,2 @@
 make -B \
-&& ./n_factor.exe
+&& ./jeffian_array.exe
