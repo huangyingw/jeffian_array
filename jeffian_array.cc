@@ -18,7 +18,7 @@ int isJeffian(int a[ ], int len)
     if (isPrime)
     {
       count++;
-      if (a[i]<min)
+      if (min>a[i])
         min=a[i];
     }
   }
