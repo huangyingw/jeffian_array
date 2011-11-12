@@ -10,7 +10,7 @@ int isJeffian(int a[ ], int len)
   for (int i=0;i<len;i++)
   {
     bool isPrime=true;
-    for (int j=2;j*j<=a[i];j++)
+    for (int j=2;j*j<=a[i];++j)
     {
       if (0==a[i]%j)
         isPrime=false;
