@@ -22,7 +22,7 @@ int isJeffian(int a[ ], int len)
         min=a[i];
     }
   }
-  if (min==count && count>0)
+  if (min==count)
     return 1;
   else
     return 0;
